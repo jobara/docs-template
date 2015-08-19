@@ -1,0 +1,53 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+
+/*
+FLUID-5639:
+Because we don't know where the CSS file is relative to the location of the 404
+page being served, we can not use the default CSS file. So instead we will need
+to duplicate some of the default styling here.
+*/
+link-color ?= #0000CB;
+link-hover-color ?= #fff;
+link-hover-background ?= #0000CB;
+
+body {
+    background-color: #f2f2f2;
+}
+
+.docs-template-404-header,
+.docs-template-404-footer {
+    background-color: #323232;
+    height: 7rem;
+    font-family: "Open Sans", Arial, Helvetica;
+    font-size: 1.1rem;
+}
+
+.docs-template-404-header {
+    font-size: 1.6rem;
+    font-family: "Open Sans", Arial, Helvetica;
+    letter-spacing: 0.2rem;
+    padding: 2.5rem 0 0 2.5rem;
+}
+
+.docs-template-404-header a {
+    color: #66CCFF;
+}
+
+.docs-template-404-main-body {
+    min-height: 40rem;
+    margin: 0;
+}
+
+.docs-template-404-content {
+    min-height: 40rem;
+    height: 100%;
+}
+
+.docs-template-404-content h1 {
+    font-family: 'Roboto Slab';
+    font-size: 3.0rem;
+    margin-top: 6rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}

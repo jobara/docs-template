@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <title>Cookies | Documentation Template</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css">
+        <link rel="stylesheet" href="css/highlightjs-custom.css">
+        <link rel="stylesheet" href="lib/infusion/src/lib/jquery/ui/css/default-theme/jquery.ui.theme.css">
+        <!--link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css"-->
+
+
+        <link rel="stylesheet" type="text/css" href="lib/infusion/src/framework/preferences/css/Enactors.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/src/framework/preferences/css/PrefsEditor.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/src/framework/preferences/css/SeparatedPanelPrefsEditor.css" />
+        <link rel="stylesheet" href="css/docs-template.css">
+
+        <link rel="icon" type="image/png" href="images/favico.png">
+
+        <!--script src="https://code.jquery.com/jquery-2.1.4.min.js"></script-->
+        <script type="text/javascript" src="lib/infusion/infusion-uio.js"></script>
+        <script type="text/javascript" src="js/DocsCore.js"></script>
+        <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    </head>
+    <body class="docs-template docs-core-sidebar-visibility">
+
+        <div class="container docs-template-container">
+
+            <!-- Skip Link -->
+            <div id="skip">
+                <a href="#topics" class="docs-template-skip-topics">Skip to Topics</a>
+                <a href="#content" class="docs-template-skip-content">Skip to Content</a>
+            </div>
+            <!-- END skip link -->
+
+
+            <header class="row docs-template-header docs-template-header">
+
+                <!-- BEGIN markup for Preference Editor -->
+                <div class="flc-prefsEditor-separatedPanel fl-prefsEditor-separatedPanel">
+                    <!-- This is the div that will contain the Preference Editor component -->
+                    <div class="flc-slidingPanel-panel flc-prefsEditor-iframe"></div>
+
+                    <!-- This div is for the sliding panel that shows and hides the Preference Editor controls -->
+                    <div class="fl-panelBar">
+                        <span class="fl-prefsEditor-buttons">
+                            <button id="reset" class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
+                            <button id="show-hide" class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
+                        </span>
+                    </div>
+                </div>
+                <!-- END markup for Preference Editor -->
+
+                <div class="docs-template-logo small-12 column">
+                    <a class="docs-template-logoText" href="index.html" title="Documentation Template">Documentation Template</a>
+
+                    <nav class="right show-for-small-only docs-template-nav-mobile">
+                        <ul id="menu">
+                            <li class="docs-template-dropDown-header"><span class="docs-template-nav-mobile-icon"></span>
+                                <ul class="docs-template-dropDown">
+                                    
+                                    
+                                        
+                                            <li><a href="index.html" title="Fruits">Fruits</a></li>
+                                        
+                                    
+                                        
+                                            <li><a href="index-veggies.html" title="Veggies">Veggies</a></li>
+                                        
+                                    
+                                        
+                                            <li class="docs-template-category-active"><a href="index-desserts.html" title="Desserts" aria-label="Currently on Category: Desserts">Desserts</a></li>
+                                        
+                                    
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <nav class="small-12 column show-for-medium-up">
+                    <ul class="inline-list right">
+                    
+                    
+                        
+                            <li><a href="index.html" title="Fruits">Fruits</a></li>
+                        
+                    
+                        
+                            <li><a href="index-veggies.html" title="Veggies">Veggies</a></li>
+                        
+                    
+                        
+                            <li class="docs-template-category-active"><a href="index-desserts.html" title="Desserts" aria-label="Currently on Category: Desserts">Desserts</a></li>
+                        
+                    
+                    </ul>
+                </nav>
+
+
+            </header>
+
+            <div id="side" class="docs-template-TOC-container small-8 medium-3 column">
+                <nav id="tableOfContents" class="docs-template-TOC" tabindex="-1">
+                    
+                        
+                        
+                    
+                        
+                        
+                    
+                        
+                        
+                            <h2 class="docs-template-category">Desserts</h2>
+                            
+                                <h3 class="docs-template-sectionName"></h3>
+                                <ul>
+                                    
+                                        <li>
+                                            
+                                                <a href="BlackForest.html"><span class="docs-template-TOC-item">Black Forest</span></a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="CheeseCake.html"><span class="docs-template-TOC-item">Cheese Cake</span></a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="IceCream.html"><span class="docs-template-TOC-item">Ice cream</span></a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="" aria-label="Currently on: Cookies"><span class="docs-template-TOC-item docs-template-TOC-active">Cookies</span></a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="BlackForest.html"><span class="docs-template-TOC-item">Black Forest</span></a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="CheeseCake.html"><span class="docs-template-TOC-item">Cheese Cake</span></a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="IceCream.html"><span class="docs-template-TOC-item">Ice cream</span></a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="" aria-label="Currently on: Cookies"><span class="docs-template-TOC-item docs-template-TOC-active">Cookies</span></a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="BlackForest.html"><span class="docs-template-TOC-item">Black Forest</span></a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="CheeseCake.html"><span class="docs-template-TOC-item">Cheese Cake</span></a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="IceCream.html"><span class="docs-template-TOC-item">Ice cream</span></a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="" aria-label="Currently on: Cookies"><span class="docs-template-TOC-item docs-template-TOC-active">Cookies</span></a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="BlackForest.html"><span class="docs-template-TOC-item">Black Forest</span></a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="CheeseCake.html"><span class="docs-template-TOC-item">Cheese Cake</span></a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="IceCream.html"><span class="docs-template-TOC-item">Ice cream</span></a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="" aria-label="Currently on: Cookies"><span class="docs-template-TOC-item docs-template-TOC-active">Cookies</span></a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="BlackForest.html"><span class="docs-template-TOC-item">Black Forest</span></a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="CheeseCake.html"><span class="docs-template-TOC-item">Cheese Cake</span></a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="IceCream.html"><span class="docs-template-TOC-item">Ice cream</span></a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="" aria-label="Currently on: Cookies"><span class="docs-template-TOC-item docs-template-TOC-active">Cookies</span></a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="BlackForest.html"><span class="docs-template-TOC-item">Black Forest</span></a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="CheeseCake.html"><span class="docs-template-TOC-item">Cheese Cake</span></a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="IceCream.html"><span class="docs-template-TOC-item">Ice cream</span></a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="" aria-label="Currently on: Cookies"><span class="docs-template-TOC-item docs-template-TOC-active">Cookies</span></a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="BlackForest.html"><span class="docs-template-TOC-item">Black Forest</span></a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="CheeseCake.html"><span class="docs-template-TOC-item">Cheese Cake</span></a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="IceCream.html"><span class="docs-template-TOC-item">Ice cream</span></a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="" aria-label="Currently on: Cookies"><span class="docs-template-TOC-item docs-template-TOC-active">Cookies</span></a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="BlackForest.html"><span class="docs-template-TOC-item">Black Forest</span></a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="CheeseCake.html"><span class="docs-template-TOC-item">Cheese Cake</span></a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="IceCream.html"><span class="docs-template-TOC-item">Ice cream</span></a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="" aria-label="Currently on: Cookies"><span class="docs-template-TOC-item docs-template-TOC-active">Cookies</span></a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="BlackForest.html"><span class="docs-template-TOC-item">Black Forest</span></a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="CheeseCake.html"><span class="docs-template-TOC-item">Cheese Cake</span></a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="IceCream.html"><span class="docs-template-TOC-item">Ice cream</span></a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="" aria-label="Currently on: Cookies"><span class="docs-template-TOC-item docs-template-TOC-active">Cookies</span></a>
+                                            
+                                        </li>
+                                    
+                                </ul>
+                            
+                        
+                    
+                </nav>
+            </div>
+
+            <article id="content" class="docs-template-articleBody small-12 medium-8 column" tabindex="-1">
+
+                <div class="small-4 medium-1 column docs-template-TOC-hideShow">
+                    <a href="#" class="docs-corec-topics" title="Visually Hide or Show List of Topics" aria-label="Visually Hide or Show List of Topics" role="button">Topics</a>
+                </div>
+
+                <div class="flc-toc-tocContainer docs-template-uio-toc"> </div>
+
+                <h1>Cookies</h1>
+
+                <p class="docs-template-githubLink"><a href="https://github.com/fluid-project/docs-template/blob/master/src/documents/Cookies.md" target="_blank">Edit this Page on GitHub</a></p>
+
+                <div class="docs-template-articleContent">
+                    <h2 id="cookies-can-have-chocolate-chips-cranberries-and-nuts-">Cookies can have chocolate chips, cranberries, and nuts.</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu consectetur enim, ac finibus metus. Sed lectus mi, vulputate ut diam at, iaculis laoreet ante. Maecenas tincidunt at dolor vel mattis. Duis accumsan nisi porttitor odio varius, quis iaculis leo lacinia. Nunc placerat ut lacus quis commodo. Cras egestas nisl eros, mollis placerat risus facilisis et. Quisque mattis nec odio quis semper. Proin vestibulum erat id massa interdum volutpat. Proin semper turpis vel gravida vehicula.</p>
+<h3 id="cum-sociis-natoque">Cum sociis natoque</h3>
+<p>penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam a enim et neque tincidunt sagittis sed at sapien. Proin posuere ex erat, ut tempus tellus facilisis a. Proin aliquet faucibus mi, quis pulvinar elit placerat sit amet. Praesent interdum nibh at fringilla tincidunt. Nullam vestibulum euismod purus sed aliquet. Aenean ornare ipsum lectus, et consectetur velit tempor vitae. Fusce non rutrum ex.</p>
+<p>Nam elementum consectetur massa eu cursus. Praesent quis diam et ligula porta efficitur. Maecenas orci enim, porttitor id vulputate in, viverra vel erat. Sed pellentesque ex ac cursus iaculis. Phasellus mattis lorem eget quam vehicula tempor. In vitae turpis sed mauris aliquet ornare eget quis odio. Maecenas nec ex volutpat, blandit felis at, eleifend eros. Vestibulum tellus arcu, maximus vulputate justo a, tempus aliquam metus. Duis eu nulla nec massa dictum porttitor. Etiam ut felis vulputate, blandit lectus et, maximus nibh. Mauris mattis accumsan rhoncus. Nullam vel felis nec mi egestas convallis at ac turpis. Fusce euismod sagittis orci. Curabitur vel nibh justo.</p>
+
+                </div>
+
+            </article>
+
+            <footer class="row docs-template-footer">
+                <p>Created by the <a href="http://fluidproject.org/" target="_blank">Fluid Project</a>,<br/>
+                a project of the <a href="http://idrc.ocad.ca/" target="_blank">Inclusive Design Research Centre</a> at <a href="http://www.ocadu.ca/" target="_blank">OCAD University</a>.</p>
+            </footer>
+
+            <script type="text/javascript">
+                docsCore.init("./");
+                jQuery( "#menu" ).menu({
+                    position: {my: "right top", at: "right bottom"},
+                    icons: {submenu:"ui-icon-blank"}
+                });
+            </script>
+        </div> <!-- end container -->
+
+    </body>
+</html>

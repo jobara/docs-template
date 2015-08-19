@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/normalize.min.css">
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/js/foundation.min.js"></script>
+
+
+
+        <script>
+        $(function() {
+            $( "#menu" ).menu();
+          });
+          </script>
+    </head>
+
+    <body>
+
+          <ul id="menu">
+  <li class="ui-state-disabled">Aberdeen</li>
+  <li>Ada</li>
+  <li>Adamsville</li>
+  <li>Addyston</li>
+  <li>Delphi
+    <ul>
+      <li class="ui-state-disabled">Ada</li>
+      <li>Saarland</li>
+      <li>Salzburg an der schönen Donau</li>
+    </ul>
+  </li>
+  <li>Saarland</li>
+  <li>Salzburg
+    <ul>
+      <li>Delphi
+        <ul>
+          <li>Ada</li>
+          <li>Saarland</li>
+          <li>Salzburg</li>
+        </ul>
+      </li>
+      <li>Delphi
+        <ul>
+          <li>Ada</li>
+          <li>Saarland</li>
+          <li>Salzburg</li>
+        </ul>
+      </li>
+      <li>Perch</li>
+    </ul>
+  </li>
+  <li class="ui-state-disabled">Amesville</li>
+</ul>
+
+        <nav class="top-bar" data-topbar role="navigation">
+          <ul class="title-area">
+            <li class="name">
+              <h1><a href="#">My Site</a></h1>
+            </li>
+             <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+          </ul>
+
+          <section class="top-bar-section">
+            <!-- Right Nav Section -->
+            <ul class="right">
+              <li class="active"><a href="#">Right Button Active</a></li>
+              <li class="has-dropdown">
+                <a href="#">Right Button Dropdown</a>
+                <ul class="dropdown">
+                  <li><a href="Potato.html">First link in dropdown</a></li>
+                  <li class="active"><a href="Carrots.html">Active link in dropdown</a></li>
+                </ul>
+              </li>
+            </ul>
+
+            <!-- Left Nav Section -->
+            <ul class="left">
+              <li><a href="#">Left Nav Button</a></li>
+            </ul>
+          </section>
+        </nav>
+
+        <script>
+          $(document).foundation();
+
+        </script>
+    </body>
+</html>
